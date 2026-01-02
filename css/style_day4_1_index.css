@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "style_day3_3_header.css";
+@import "style_day4_1_footer.css";
+@import "style_day4_2_main.css";
+
+body{
+    font-family: font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;;
+}
+
+.media-info-msg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background-color: tomato;
+}
+
+@media screen and (max-width:540px){
+    .media-info-msg{
+        opacity: 0;
+    }
+}
